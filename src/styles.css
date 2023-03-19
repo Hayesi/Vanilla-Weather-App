@@ -29,7 +29,7 @@ li {
 .text-bg-dark {
   display: block;
   margin: 30px auto;
-  max-width: 50%;
+  max-width: 55%;
   opacity: 0.8;
 }
 
@@ -43,16 +43,4 @@ li {
 .main-temp .temp-units {
   position: relative;
   font-size: smaller;
-}
-
-.col-6 {
-  position: relative;
-  left: 5%;
-  top: 60%;
-}
-
-.col-5 {
-  position: relative;
-  left: 30%;
-  top: 60%;
 }
