@@ -35,3 +35,14 @@ function search(city) {
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl);
 }
+
+function manageSubmit(event) {
+  event.preventDefault();
+  let cityInputElement = document.querySelector("#city-entry");
+  search(cityInputElement.value);
+}
+
+let form = document.querySelector("#query-form");
+form.addEventListener("submit", manageSubmit);
+
+search("London");
