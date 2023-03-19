@@ -23,6 +23,13 @@ li {
   padding: 0;
 }
 
+strong {
+  color: rgba(11, 11, 119, 0.919);
+  font-size: xx-large;
+  line-height: 1;
+  font-weight: 300;
+}
+
 .text-bg-dark {
   display: block;
   margin: 30px auto;
@@ -30,20 +37,9 @@ li {
   opacity: 0.8;
 }
 
-.strong {
-  color: rgba(11, 11, 119, 0.919);
-  font-size: xx-large;
-  line-height: 1;
-  font-weight: 300;
-}
-
 .tempandunits .temp-units {
   position: relative;
   font-size: smaller;
-}
-
-.pinned {
-  position: relative;
 }
 
 .pinned li {
@@ -57,7 +53,7 @@ li {
 
 .condition {
   position: relative;
-  left: 49%;
+  top: 35px;
   color: rgb(8, 38, 173);
   font-size: small;
   font-weight: 250;
