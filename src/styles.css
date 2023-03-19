@@ -4,6 +4,8 @@ body {
 
 h1 {
   color: rgb(225, 225, 195);
+  position: relative;
+  top: 60px;
   font-size: 35px;
   font-weight: 150;
   line-height: 15px;
@@ -45,16 +47,19 @@ li {
 }
 
 .pinned li {
+  position: relative;
+  top: 70px;
   color: rgb(225, 225, 195);
   font-size: small;
-  font-weight: 200;
-  line-height: 10px;
+  font-weight: 250;
+  line-height: 15px;
 }
 
 .condition {
   position: relative;
-  color: rgb(19, 2, 36);
+  left: 49%;
+  color: rgb(8, 38, 173);
   font-size: small;
-  font-weight: 200;
-  line-height: 10px;
+  font-weight: 250;
+  line-height: 15px;
 }
