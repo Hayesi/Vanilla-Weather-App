@@ -19,11 +19,6 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-
-  color: rgb(110, 10, 204);
-  font-size: small;
-  font-weight: 200;
-  line-height: 10px;
 }
 
 .text-bg-dark {
@@ -33,14 +28,33 @@ li {
   opacity: 0.8;
 }
 
-.main-temp strong {
+.strong {
   color: rgba(11, 11, 119, 0.919);
   font-size: xx-large;
   line-height: 1;
   font-weight: 300;
 }
 
-.main-temp .temp-units {
+.tempandunits .temp-units {
   position: relative;
   font-size: smaller;
+}
+
+.pinned {
+  position: relative;
+}
+
+.pinned li {
+  color: rgb(225, 225, 195);
+  font-size: small;
+  font-weight: 200;
+  line-height: 10px;
+}
+
+.condition {
+  position: relative;
+  color: rgb(19, 2, 36);
+  font-size: small;
+  font-weight: 200;
+  line-height: 10px;
 }
