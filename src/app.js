@@ -29,3 +29,9 @@ function formatDay(timestamp) {
 
   return days[day];
 }
+
+function search(city) {
+  //let apiKey = "52dc06c0c871b8c50be5fc4211d5cfd2";//
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl);
+}
